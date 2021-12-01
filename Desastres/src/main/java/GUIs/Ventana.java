@@ -19,9 +19,8 @@ public class Ventana extends JFrame {
     }
 
     public void iniciarComponentes() {
-        JPanel panel1 = new JPanel();
-        this.getContentPane().add(panel1);
-        this.etiqueta1 = new JLabel("Lista desaparecidos");
+        this.setLayout((LayoutManager)null);
+        this.etiqueta1 = new JLabel("Lista desaparecidos:");
         this.etiqueta1.setBounds(10, 10, 500, 30);
         this.add(this.etiqueta1);
         this.etiqueta2 = new JLabel("Detalles desastre: ");
