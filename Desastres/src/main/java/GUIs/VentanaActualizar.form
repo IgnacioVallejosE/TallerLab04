@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUIs.VentanaActualizar">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="510" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="94ff2" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Actualizar Desaparecidos"/>
+        </properties>
+      </component>
+      <component id="be355" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Nombre"/>
+        </properties>
+      </component>
+      <component id="729c9" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <columns value="20"/>
+        </properties>
+      </component>
+      <component id="fa32b" class="javax.swing.JButton" binding="actualizarButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <alignmentX value="1.0"/>
+          <alignmentY value="1.0"/>
+          <enabled value="false"/>
+          <text value="Actualizar"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="bd2d2" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Edad"/>
+        </properties>
+      </component>
+      <component id="c8fb4" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints/>
+        <properties>
+          <columns value="20"/>
+        </properties>
+      </component>
+      <component id="d27d8" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <text value="Sexo"/>
+        </properties>
+      </component>
+      <component id="a137" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+        <constraints/>
+        <properties>
+          <columns value="20"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
