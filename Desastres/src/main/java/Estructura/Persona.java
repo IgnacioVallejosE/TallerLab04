@@ -5,7 +5,7 @@ public class Persona {
     private String sexo;
     private int edad;
 
-    public Persona(String nombre, String sexo, int edad) {
+    public Persona() {
         this.nombre = nombre;
         this.sexo = sexo;
         this.edad = edad;

@@ -49,6 +49,5 @@ public class Geofisicos {
 
     public void detalleDesastre(){
         ArrayList<Geofisicos> arr = new ArrayList<Geofisicos>();
-        arr.add();
     }
 }
