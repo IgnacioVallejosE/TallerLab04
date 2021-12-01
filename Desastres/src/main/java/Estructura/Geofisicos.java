@@ -1,5 +1,7 @@
 package Estructura;
 
+import java.util.ArrayList;
+
 public class Geofisicos {
     private int cantidadDesastres;
     private int fecha;
@@ -46,7 +48,8 @@ public class Geofisicos {
     }
 
     public void detalleDesastre(){
-
+        ArrayList<Geofisicos> arr = new ArrayList<Geofisicos>();
+        Geofisicos geo = new Geofisicos(getCantidadDesastres(),getFecha(), getTipoDesastre(),getLugar());
+        arr.add(geo);
     }
-}
 }
